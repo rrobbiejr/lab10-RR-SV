@@ -8,8 +8,8 @@ import math
 def add(a, b):
     return a + b
 
-    #def sub(a, b):
-    #    return a - b
+def sub(a, b):
+    return a - b
 
 def mul(a, b):
     return a * b
@@ -19,11 +19,11 @@ def div(a, b):
         raise ZeroDivisionError
     return b / a # raise ZeroDivisionError if a == 0
 
-    #def log(a, b):
-    #    try:
-    #        math.log(a, b)
-    #    except ValueError:
-    #        print("ValueError")
+def log(a, b):
+    try:
+        math.log(a, b)
+    except ValueError:
+        print("ValueError")
 
 
 def exp(a, b):
@@ -46,8 +46,8 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-    #def multiply(a, b):
-    #return a * b
+def multiply(a, b):
+    return a * b
 
 def logarithm(a, b):
     try:
@@ -55,8 +55,8 @@ def logarithm(a, b):
     except ValueError:
         print("Value Error")
 
-d#ef exponent(a, b):
-#   return a ** b
+def exponent(a, b):
+    return a ** b
 
 
 
