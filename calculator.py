@@ -4,10 +4,32 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
-def add(a, b): 
-    pass
 
-# Lab 10, Rob and Sierra
+import math
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+
+def logarithm(a, b):
+    try:
+        math.log(b, a)
+    except ValueError:
+        print("Value Error")
+
+def exponent(a, b):
+    return a ** b
+
 
 
