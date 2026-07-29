@@ -35,7 +35,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_logarithm(self): # 3 assertions
     #     fill in code
-        self.assertEqual(log(5, 625), 4)
+        self.assertEqual(log(10, 100), 2)
         self.assertEqual(log(2, 8), 3)
         self.assertEqual(log(5, 1), 0)
 
