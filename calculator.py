@@ -4,6 +4,30 @@ calculator.py
 
 One function per operation, in order.
 """
+import math
+def add(a, b):
+    return a + b
+
+    #def sub(a, b):
+    #    return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    if a==0:
+        raise ZeroDivisionError
+    return b / a # raise ZeroDivisionError if a == 0
+
+    #def log(a, b):
+    #    try:
+    #        math.log(a, b)
+    #    except ValueError:
+    #        print("ValueError")
+
+
+def exp(a, b):
+    return a**b
 
 import math
 
@@ -22,14 +46,8 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    try:
-        return a / b
-    except ZeroDivisionError:
-        print("Cannot divide by zero")
+    #def multiply(a, b):
+    #return a * b
 
 def logarithm(a, b):
     try:
@@ -37,8 +55,8 @@ def logarithm(a, b):
     except ValueError:
         print("Value Error")
 
-def exponent(a, b):
-    return a ** b
+d#ef exponent(a, b):
+#   return a ** b
 
 
 
